@@ -1,0 +1,30 @@
+# Cloud LLM APIs
+google-generativeai>=0.3.0
+groq>=0.4.0
+
+# TTS (Cascade: Premium → Free)
+elevenlabs>=1.0.0  # Optional: Premium TTS (Priority 1)
+edge-tts>=6.1.0  # Free TTS with word timestamps (Priority 2)
+piper-tts>=1.0.0  # Local fallback (if needed)
+
+# Audio Processing
+pydub>=0.25.1
+
+# Video Processing
+moviepy>=1.0.3
+yt-dlp>=2024.0.0
+
+# YouTube Upload
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.0.0
+
+# Environment
+python-dotenv>=1.0.1
+
+# Utilities
+requests>=2.32.3
+numpy>=1.26.0
+opencv-python>=4.7.0.72
+pyperclip>=1.8.2  # Clipboard automation for assistant mode
+googlesearch-python>=1.2.3  # Market intelligence - viral topic research
+json_repair>=0.7.0  # JSON repair for LLM responses

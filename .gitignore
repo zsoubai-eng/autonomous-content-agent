@@ -1,0 +1,15 @@
+client_secrets.json
+token.json
+.env
+output/
+temp/
+cache/
+__pycache__/
+*.mp4
+*.mp3
+
+models/*.bin
+videos/
+*.mp4
+*.avi
+.DS_Store
